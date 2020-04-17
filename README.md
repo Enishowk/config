@@ -46,3 +46,4 @@
 * zsh-autosuggestions : https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 * MySQL : `brew install mysql`, `mysql_secure_installation`, `brew services start mysql`, `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';`
 * Node : `brew install node`
+* JetBrains Mono : https://www.jetbrains.com/fr-fr/lp/mono/
