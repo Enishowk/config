@@ -83,6 +83,9 @@ Type|Item|Price
 * Go to EFI/EFI/Clover/Kexts/Other and copy the **usbports.kext** here.
 * Reboot.
 
+> Fix iMessage 
+https://hackintosher.com/guides/quick-fixes-facetime-icloud-imessage-hackintosh-not-working/
+
 # Benchmarks
 * MBP 16" CPU : https://browser.geekbench.com/v5/cpu/3295626
 * MBP 16" GPU OpenGL : https://browser.geekbench.com/v5/compute/1344535
