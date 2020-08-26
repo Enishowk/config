@@ -54,6 +54,7 @@ Type|Item|Price
 * Install [Clover](https://github.com/Dids/clover-builder/releases) on USB Key with correct Kexts (FSInject, HFSPlus, SMCHelper)
 * Install [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 * Copy Kexts from this repo in `EFI -> CLOVER -> kexts -> Other`
+* Copy Efi file from this repo in `EFI -> CLOVER -> drivers -> UEFI`
 * Change **config.plist** with [THIS](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/coffee-lake)
 
 ## Kexts
@@ -63,6 +64,11 @@ Type|Item|Price
 - USB : USBInjectAll.kext & USBPorts.kext
 - GPU : Lilu.kext & WhateverGreen.kext
 - NVMe : NVMeFix.kext
+
+# After install
+- Install Clover on SSD
+- Install Clover Configurator
+- Copy EFI and Kext on the partition
 
 # Troubleshooting
 
@@ -86,8 +92,8 @@ Type|Item|Price
 * Hackintosh GPU Metal : https://browser.geekbench.com/v5/compute/1392083
 
 # Ressources :
-https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/
-https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/
-https://www.tonymacx86.com/
-https://www.reddit.com/r/hackintosh/comments/7mroab/success_high_sierra_on_coffee_lake_i58600k_asus/
+* https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/
+* https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/
+* https://www.tonymacx86.com/
+* https://www.reddit.com/r/hackintosh/comments/7mroab/success_high_sierra_on_coffee_lake_i58600k_asus/
 
