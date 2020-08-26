@@ -2,13 +2,13 @@
 ## Hardware
 Type|Item|Price
 :----|:----|:----:
-***CPU** | [Intel Core i5-8500 3 GHz 6-Core Processor](https://fr.pcpartpicker.com/product/kFKcCJ/intel-core-i5-8500-3ghz-6-core-processor-bx80684i58500) | 95 €
-**CPU Cooler** | [be quiet! Dark Rock Slim CPU Cooler](https://fr.pcpartpicker.com/product/krxbt6/be-quiet-dark-rock-slim-cpu-cooler-bk024) | 30 €
-***Motherboard** | [Asus ROG Strix Z370-I Gaming Mini ITX LGA1151 Motherboard](https://fr.pcpartpicker.com/product/VRjWGX/asus-rog-strix-z370-i-gaming-mini-itx-lga1151-motherboard-strix-z370-i-gaming) | 80 €
-***Memory** | [Crucial Ballistix 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory](https://fr.pcpartpicker.com/product/BxTzK8/crucial-ballistix-16-gb-2-x-8-gb-ddr4-3200-memory-bl2k8g32c16u4b) | 40 €
-**Storage** | [Kingston A2000 250 GB M.2-2280 NVME Solid State Drive](https://fr.pcpartpicker.com/product/3vWBD3/kingston-a2000-250-gb-m2-2280-nvme-solid-state-drive-sa2000m8250g) | 45 €
-***Video Card** | [Sapphire Radeon RX 570 4 GB PULSE Video Card](https://fr.pcpartpicker.com/product/bxM323/sapphire-radeon-rx-570-4gb-pulse-video-card-11266-04-20g) | 75 €
-***Case** | [Fractal Design Define Nano S Mini ITX Desktop Case](https://fr.pcpartpicker.com/product/7d98TW/fractal-design-case-fdcadefnanosbk) | 50 €
+***CPU** | [Intel Core i5-8500 3 GHz 6-Core](https://fr.pcpartpicker.com/product/kFKcCJ/intel-core-i5-8500-3ghz-6-core-processor-bx80684i58500) | 95 €
+**CPU Cooler** | [be quiet! Dark Rock Slim](https://fr.pcpartpicker.com/product/krxbt6/be-quiet-dark-rock-slim-cpu-cooler-bk024) | 30 €
+***Motherboard** | [Asus ROG Strix Z370-I Gaming Mini ITX](https://fr.pcpartpicker.com/product/VRjWGX/asus-rog-strix-z370-i-gaming-mini-itx-lga1151-motherboard-strix-z370-i-gaming) | 80 €
+***Memory** | [Crucial Ballistix 16 GB (2 x 8 GB) DDR4-3200 CL16](https://fr.pcpartpicker.com/product/BxTzK8/crucial-ballistix-16-gb-2-x-8-gb-ddr4-3200-memory-bl2k8g32c16u4b) | 40 €
+**Storage** | [Kingston A2000 250 GB M.2-2280 NVME](https://fr.pcpartpicker.com/product/3vWBD3/kingston-a2000-250-gb-m2-2280-nvme-solid-state-drive-sa2000m8250g) | 45 €
+***Video Card** | [Sapphire Radeon RX 570 4 GB PULSE](https://fr.pcpartpicker.com/product/bxM323/sapphire-radeon-rx-570-4gb-pulse-video-card-11266-04-20g) | 75 €
+***Case** | [Fractal Design Define Nano S Mini ITX](https://fr.pcpartpicker.com/product/7d98TW/fractal-design-case-fdcadefnanosbk) | 50 €
 ***Power Supply** | [be quiet! System Power 7 500 W 80+ Silver](https://www.ldlc.com/fiche/PB00139841.html) | 20 €
  | **Total** | **435 €** *second-hand items.
 
