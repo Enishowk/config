@@ -88,10 +88,10 @@ https://hackintosher.com/guides/quick-fixes-facetime-icloud-imessage-hackintosh-
 
 # Benchmarks
 * MBP 16" CPU : https://browser.geekbench.com/v5/cpu/3295626
-* MBP 16" GPU OpenGL : https://browser.geekbench.com/v5/compute/1344535
+* MBP 16" GPU OpenCL : https://browser.geekbench.com/v5/compute/1344535
 * MBP 16" GPU Metal : https://browser.geekbench.com/v5/compute/1344542
 * Hackintosh CPU : https://browser.geekbench.com/v5/cpu/3425068
-* Hackintosh GPU OpenGL : https://browser.geekbench.com/v5/compute/1392078
+* Hackintosh GPU OpenCL : https://browser.geekbench.com/v5/compute/1392078
 * Hackintosh GPU Metal : https://browser.geekbench.com/v5/compute/1392083
 
 # Ressources :
