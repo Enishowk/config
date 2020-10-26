@@ -1,7 +1,7 @@
 # First
 * Homebrew : https://brew.sh/
 * OhMyZSH
-* Fira code : `brew tap homebrew/cask-fonts && brew cask install font-fira-code`
+* JetBrains Mono : `brew tap homebrew/cask-fonts && brew cask install font-jetbrains-mono`
 
 > `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
@@ -15,12 +15,13 @@
 * Chrome : `brew cask install google-chrome`
 * Cyberduck : `brew cask install cyberduck`
 * Discord : `brew cask install discord`
+* Edge : `brew cask install microsoft-edge`
 * Etcher : `brew cask install balenaetcher`
 * Insomnia : `brew cask install insomnia`
 * Java : `brew cask install java`
 * Lepton : `brew cask install lepton`
 * Mounty (ntfs) : `brew cask install mounty`
-* SequelPro : `brew cask install sequel-pro`
+* Sequel Ace : `brew cask install sequel-ace`
 * Spotify : `brew cask install spotify`
 * Spotmenu : `brew cask install spotmenu`
 * Steam : `brew cask install steam`
@@ -30,7 +31,7 @@
 * VSCode : `brew cask install visual-studio-code`
 * iTerm2 : `brew cask install iterm2`
 
-> `brew cask install google-chrome google-backup-and-sync spotify vlc cyberduck steam discord mounty balenaetcher spotmenu teamviewer iterm2 bettertouchtool visual-studio-code sublime-text insomnia sequel-pro lepton java`
+> `brew cask install microsoft-edge google-backup-and-sync spotify vlc cyberduck steam discord mounty balenaetcher spotmenu teamviewer iterm2 bettertouchtool visual-studio-code sublime-text insomnia sequel-ace lepton java`
 
 # CLI
 * MariaDB : `brew install mariadb`
@@ -46,4 +47,3 @@
 * zsh-autosuggestions : https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 * MySQL : `brew install mysql`, `mysql_secure_installation`, `brew services start mysql`, `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';`
 * Node : `brew install node`
-* JetBrains Mono : https://www.jetbrains.com/fr-fr/lp/mono/
