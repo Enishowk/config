@@ -9,5 +9,8 @@
 - [Nodejs, npm, n](https://www.npmjs.com/package/n#installation)
 - `npm install -g yarn`
 
+# Docker
+- `docker run -p 33061:3306 --name mariadb -e MYSQL_ROOT_PASSWORD=YOUR_PASS -d mariadb:10.1.37`
+
 # Troubleshooting
 - [Windows terminal is laggy](https://github.com/microsoft/terminal/issues/649#issuecomment-736124145)
