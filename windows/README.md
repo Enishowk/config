@@ -6,6 +6,8 @@
 
 # Ubuntu 20.04
 - `sudo apt update && sudo apt upgrade`
+- `sudo apt install -y build-essential`
+- `sudo apt-get install python` (pour www-xo)
 - [Nodejs, npm, n](https://www.npmjs.com/package/n#installation)
 - `npm install -g yarn`
 
