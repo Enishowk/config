@@ -18,3 +18,7 @@
 
 # Troubleshooting
 - [Windows terminal is laggy](https://github.com/microsoft/terminal/issues/649#issuecomment-736124145)
+
+
+# Task scheduler
+- `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden -File D:\scriptbkp.ps1`
