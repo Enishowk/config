@@ -16,7 +16,7 @@
 - `docker exec mariadb sh -c 'exec mysqldump -u root -pYOUR_PASS YOUR_DATABASE' > /path/database.sql`
 - `docker exec -i mariadb sh -c 'exec mysql -u root -pYOUR_PASS YOUR_DATABASE' < /path/database.sql` (in Ubuntu 20.04)
 
-# Expo WSL2 over lan
+# [Expo WSL2 over lan](https://stackoverflow.com/questions/61002681/connecting-to-wsl2-server-via-local-network)
 - `netsh interface portproxy add v4tov4 listenport=3000 listenaddress=0.0.0.0 connectport=3000 connectaddress=127.0.0.1`
 - `netsh advfirewall firewall add rule name="TCP Port Open" dir=in action=allow protocol=TCP localport=3000`
 
