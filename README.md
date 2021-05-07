@@ -64,3 +64,9 @@ eval $(ssh-agent -s)
 # make ssh agent to actually use copied key
 ssh-add ~/.ssh/id_rsa
 ```
+
+# Git
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
