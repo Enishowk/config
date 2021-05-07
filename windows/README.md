@@ -25,4 +25,5 @@
 
 
 # Task scheduler
+- `set-executionpolicy unrestricted`
 - `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden -File D:\scriptbkp.ps1`
