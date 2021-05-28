@@ -12,7 +12,7 @@
 - `npm install -g yarn`
 
 # Docker
-- `docker run -p 33061:3306 --name mariadb -e MYSQL_ROOT_PASSWORD=YOUR_PASS -d mariadb:10.1.37`
+- `docker run -p 33061:3306 --name mariadb -e MYSQL_ROOT_PASSWORD=YOUR_PASS -e TZ=Europe/Paris -d mariadb:10.1.37`
 - `docker exec mariadb sh -c 'exec mysqldump -u root -pYOUR_PASS YOUR_DATABASE' > /path/database.sql`
 - `docker exec -i mariadb sh -c 'exec mysql -u root -pYOUR_PASS YOUR_DATABASE' < /path/database.sql` (in Ubuntu 20.04)
 
