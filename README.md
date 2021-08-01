@@ -50,7 +50,7 @@ sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/lo
 
 # Docker
 * Docker desktop : https://www.docker.com/products/docker-desktop
-> `docker run -p 33061:3306 --name mariadb -e MYSQL_ROOT_PASSWORD=PASSWORD -d arm64v8/mariadb:10.1.37` 
+> `docker run -p 3306:3306 --name mariadb -v /mariadbData:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=PASSWORD -d arm64v8/mariadb:10.1.37` 
 
 # SSH
 ```
