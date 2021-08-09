@@ -1,3 +1,6 @@
+# [Chocolatey](https://chocolatey.org/install)
+- `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+
 # Install WSL2
 - [WSL2](https://docs.microsoft.com/fr-fr/windows/wsl/install-win10)
 - `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
