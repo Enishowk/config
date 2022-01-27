@@ -70,3 +70,11 @@ ssh-add ~/.ssh/id_rsa
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
+
+# Firefox
+```
+browser.tabs.loadBookmarksInBackground true
+general.smoothScroll: false
+general.smoothScroll.currentVelocityWeighting: 0
+mousewheel.min_line_scroll_amount: 32
+```
