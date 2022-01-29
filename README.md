@@ -73,6 +73,7 @@ git config --global user.email johndoe@example.com
 
 # Firefox
 ```
+toolkit.legacyUserProfileCustomizations.stylesheets true
 browser.tabs.loadBookmarksInBackground true
 general.smoothScroll: false
 general.smoothScroll.currentVelocityWeighting: 0
