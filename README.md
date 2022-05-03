@@ -73,8 +73,9 @@ git config --global user.email johndoe@example.com
 
 # Firefox
 ```
-toolkit.legacyUserProfileCustomizations.stylesheets true
-browser.tabs.loadBookmarksInBackground true
+toolkit.legacyUserProfileCustomizations.stylesheets: true
+browser.tabs.loadBookmarksInBackground: true
+rowser.tabs.tabMinWidth: 0
 general.smoothScroll: false
 general.smoothScroll.currentVelocityWeighting: 0
 mousewheel.min_line_scroll_amount: 32
