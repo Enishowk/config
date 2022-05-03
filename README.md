@@ -76,6 +76,7 @@ git config --global user.email johndoe@example.com
 toolkit.legacyUserProfileCustomizations.stylesheets: true
 browser.tabs.loadBookmarksInBackground: true
 browser.tabs.loadDivertedInBackground: true
+browser.bookmarks.openInTabClosesMenu: false
 rowser.tabs.tabMinWidth: 0
 general.smoothScroll: false
 general.smoothScroll.currentVelocityWeighting: 0
