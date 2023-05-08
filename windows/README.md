@@ -21,6 +21,25 @@
 - `curl -fsSL https://raw.githubusercontent.com/tj/n/master/bin/n | bash -s lts`
 - `npm install -g n`
 
+# Git
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
+# SSH
+```
+# cp /path/to/my/key/id_rsa ~/.ssh/id_rsa
+# cp /path/to/my/key/id_rsa.pub ~/.ssh/id_rsa.pub
+# change permissions on file
+sudo chmod 600 ~/.ssh/id_rsa
+sudo chmod 600 ~/.ssh/id_rsa.pub
+# start the ssh-agent in the background
+eval $(ssh-agent -s)
+# make ssh agent to actually use copied key
+ssh-add ~/.ssh/id_rsa
+```
+
 # Docker
 - `docker run -p 3306:3306 --name mariadb -v /mariadbData:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=YOUR_PASS -e TZ=Europe/Paris -d mariadb:10.1.37`
 - `docker exec mariadb sh -c 'exec mysqldump -u root -pYOUR_PASS YOUR_DATABASE' > /path/database.sql`
