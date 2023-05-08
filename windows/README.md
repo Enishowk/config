@@ -1,15 +1,25 @@
 # Install WSL2
-- [WSL2](https://docs.microsoft.com/fr-fr/windows/wsl/install-win10)
-- `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
-- `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
-- `wsl --set-default-version 2`
+- `wsl --install`
 
-# Ubuntu 20.04
+# Ubuntu 22.04
 - `sudo apt update && sudo apt upgrade`
 - `sudo apt install -y build-essential`
-- `sudo apt-get install python` (pour www-xo)
-- [Nodejs, npm, n](https://www.npmjs.com/package/n#installation)
-- `npm install -g yarn`
+
+# ZSH
+- `sudo apt-get install zsh`
+- `chsh` /bin/zsh
+- `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+- `sudo apt-get install zsh`
+- `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+- `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
+# Node
+- `sudo mkdir -p /usr/local/n`
+- `sudo chown -R $(whoami) /usr/local/n`
+- `sudo mkdir -p /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share`
+- `sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share`
+- `curl -fsSL https://raw.githubusercontent.com/tj/n/master/bin/n | bash -s lts`
+- `npm install -g n`
 
 # Docker
 - `docker run -p 3306:3306 --name mariadb -v /mariadbData:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=YOUR_PASS -e TZ=Europe/Paris -d mariadb:10.1.37`
