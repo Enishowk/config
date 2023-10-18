@@ -81,4 +81,6 @@ rowser.tabs.tabMinWidth: 0
 general.smoothScroll: false
 general.smoothScroll.currentVelocityWeighting: 0
 mousewheel.min_line_scroll_amount: 32
+full-screen-api.transition-duration.enter: 0 0
+full-screen-api.transition-duration.leave: 0 0
 ```
