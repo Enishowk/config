@@ -78,9 +78,12 @@ browser.tabs.loadBookmarksInBackground: true
 browser.tabs.loadDivertedInBackground: true
 browser.bookmarks.openInTabClosesMenu: false
 rowser.tabs.tabMinWidth: 0
-general.smoothScroll: false
-general.smoothScroll.currentVelocityWeighting: 0
-mousewheel.min_line_scroll_amount: 32
+# general.smoothScroll: false
+# general.smoothScroll.currentVelocityWeighting: 0
+# mousewheel.min_line_scroll_amount: 32
 full-screen-api.transition-duration.enter: 0 0
 full-screen-api.transition-duration.leave: 0 0
+browser.tabs.tabmanager.enabled: false
+browser.urlbar.shortcuts.tabs: false
+https://color.firefox.com/?theme=XQAAAAIZAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPr7thdH0GCU0vK3a5-drEgBdKIl6BxJQtuVh5H1pKMlBCz3f618gnWSGBVHIkOQ5tEWLuO3jQPyvPHOLsibYH50GMRaXMiuptggyK_8TdZBT-pz4wXmp-1jpI0uOxH1A3o_DAUNV6GhWJB_LdmSZVYhywEYFSHmWochWnK19UVfRHMHfHRdXExzmJPAQ76pruDZuBKEE7vOeU3_7nK6oA
 ```
