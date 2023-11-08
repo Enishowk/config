@@ -47,6 +47,8 @@ sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/lo
 * Github theme (iTerm) : https://github.com/cdalvaro/github-vscode-theme-iterm
 * zsh-syntax-highlighting : https://github.com/zsh-users/zsh-syntax-highlighting
 * zsh-autosuggestions : https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+* mcfly : https://github.com/cantino/mcfly
+* eza : https://github.com/eza-community/eza
 
 # Docker
 * Docker desktop : https://www.docker.com/products/docker-desktop
