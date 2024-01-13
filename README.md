@@ -91,5 +91,7 @@ gfx.font_rendering.cleartype_params.cleartype_level 400
 gfx.font_rendering.cleartype_params.enhanced_contrast 12
 gfx.font_rendering.cleartype_params.pixel_structure 0 
 gfx.font_rendering.cleartype_params.rendering_mode 3
+# https://cameratico.com/color-management/firefox
+gfx.color_management.mode 1
 https://color.firefox.com/?theme=XQAAAAIZAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPr7thdH0GCU0vK3a5-drEgBdKIl6BxJQtuVh5H1pKMlBCz3f618gnWSGBVHIkOQ5tEWLuO3jQPyvPHOLsibYH50GMRaXMiuptggyK_8TdZBT-pz4wXmp-1jpI0uOxH1A3o_DAUNV6GhWJB_LdmSZVYhywEYFSHmWochWnK19UVfRHMHfHRdXExzmJPAQ76pruDZuBKEE7vOeU3_7nK6oA
 ```
