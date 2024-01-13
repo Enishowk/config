@@ -1,0 +1,9 @@
+user_pref("browser.startup.homepage", "about:home");
+user_pref("browser.formfill.enable", true);
+user_pref("privacy.clearOnShutdown.cache", false);
+user_pref("privacy.clearOnShutdown.downloads", false);
+user_pref("privacy.clearOnShutdown.history", false);
+user_pref("privacy.resistFingerprinting.letterboxing", false);
+user_pref("signon.rememberSignons", false);
+user_pref("browser.download.forbid_open_with", true);
+user_pref("extensions.pocket.enabled", false);
