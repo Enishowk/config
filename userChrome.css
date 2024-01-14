@@ -1,11 +1,19 @@
-*|*:root {
- --tab-min-height: 32px !important;
-}
+/* *|*:root {
+  --tab-min-height: 32px !important;
+} */
 
 #context-navigation,
 #context-sep-navigation,
 #screenshots_mozilla_org-menuitem-_create-screenshot,
+#screenshots_mozilla_org_create-screenshot,
+#context-take-screenshot,
+#context-sep-screenshots,
 #context-viewinfo,
+#context-selectall,
+#context-inspect-a11y,
+#context-sendimage,
+#context-sep-setbackground,
+#context-setDesktopBackground,
 #context-viewpartialsource-selection,
 #context-viewsource {
   display: none !important;
@@ -29,19 +37,19 @@
   margin-right: 8px !important;
 }
 /* Remove space around tab */
-.tab-background {
+/* .tab-background {
   margin: 0 !important;
   border-bottom-right-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
-}
-.browser-toolbar {
+} */
+/* .browser-toolbar {
   box-shadow: none !important;
-}
+} */
 /* Remove space between the start of the screen and the first tab */
-.tabbrowser-tab:first-child {
+/* .tabbrowser-tab:first-child {
   padding-left: 0 !important;
-}
+} */
 /* Reduce left spacer on non-maximized windows */
-.titlebar-spacer[type="pre-tabs"] {
+/* .titlebar-spacer[type="pre-tabs"] {
   display: none !important;
-}
+} */
