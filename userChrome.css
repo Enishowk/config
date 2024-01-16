@@ -53,3 +53,12 @@
 /* .titlebar-spacer[type="pre-tabs"] {
   display: none !important;
 } */
+
+findbar {
+	order: -1 !important;
+	border-top: none !important;
+	border-bottom: 1px solid var(--box-background-color) !important;
+}
+findbar>.findbar-container {
+	flex-direction: row-reverse;
+}
