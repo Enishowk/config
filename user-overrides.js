@@ -43,3 +43,4 @@ user_pref("media.autoplay.blocking_policy", 2);
 user_pref("dom.security.https_only_mode", true);
 user_pref("dom.security.https_only_mode_ever_enabled", true);
 user_pref("privacy.globalprivacycontrol.enabled", false);
+user_pref("browser.fixup.domainsuffixwhitelist.lan", true);
