@@ -1,0 +1,9 @@
+[user]
+        #name = 
+        #email = 
+[init]
+        defaultBranch = main
+[alias]
+        fpush = push
+[includeIf "gitdir:~/www/ent/"]
+        path = ~/.gitconfig-ent
