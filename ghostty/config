@@ -1,0 +1,8 @@
+theme = catppuccin-mocha.conf
+font-family = "IosevkaTerm NFM"
+font-size = 12
+font-feature = -calt, -liga, -dlig
+window-padding-y = 0
+window-padding-x = 0
+window-width = 135
+window-height = 32
