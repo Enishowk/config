@@ -14,6 +14,8 @@ user_pref("browser.newtabpage.enabled", true);
 user_pref("browser.search.separatePrivateDefault", false);
 user_pref("browser.sessionstore.privacy_level", 2);
 user_pref("browser.startup.homepage", "about:home");
+user_pref("browser.tabs.groups.enabled", false); // disable tab grouping when you drag and drop a tab
+user_pref("browser.tabs.groups.smart.userEnabled", false); // disable tab grouping when you drag and drop a tab
 user_pref("browser.tabs.loadBookmarksInBackground", true);
 user_pref("browser.tabs.loadDivertedInBackground", true);
 user_pref("browser.tabs.tabmanager.enabled", false);
