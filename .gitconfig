@@ -1,8 +1,12 @@
 [user]
         #name = 
         #email = 
+[core]
+        excludesfile = ~/.gitignore
 [init]
         defaultBranch = main
+[pull]
+        ff = only
 [alias]
         fpush = push
 [includeIf "gitdir:~/www/ent/"]
