@@ -54,6 +54,7 @@
   "terminal": {
     "dock": "bottom",
     "font_size": 15,
+    "line_height": "standard",
     "toolbar": {
       "breadcrumbs": false
     },
