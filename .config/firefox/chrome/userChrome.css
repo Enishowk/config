@@ -1,0 +1,72 @@
+/* *|*:root {
+  --tab-min-height: 32px !important;
+} */
+
+#context-navigation,
+#context-sep-navigation,
+#screenshots_mozilla_org-menuitem-_create-screenshot,
+#screenshots_mozilla_org_create-screenshot,
+#context-take-screenshot,
+#context-sep-screenshots,
+#context-viewinfo,
+#context-selectall,
+#context-inspect-a11y,
+#context-sendimage,
+#context-sep-setbackground,
+#context-setDesktopBackground,
+#context-viewpartialsource-selection,
+#context-viewsource {
+    display: none !important;
+}
+
+#context-searchselect {
+    order: 0 !important;
+}
+
+/* change bookmark folder icon */
+.bookmark-item[container] {
+    list-style-image: url("folder.png") !important;
+}
+/* Improve space between elements */
+.bookmark-item {
+    margin-top: 0px !important;
+    margin-bottom: 4px !important;
+    padding: 4px 6px !important;
+}
+.bookmark-item > .toolbarbutton-icon {
+    margin-right: 8px !important;
+}
+/* Remove space around tab */
+/* .tab-background {
+  margin: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+} */
+/* .browser-toolbar {
+  box-shadow: none !important;
+} */
+/* Remove space between the start of the screen and the first tab */
+/* .tabbrowser-tab:first-child {
+  padding-left: 0 !important;
+} */
+/* Reduce left spacer on non-maximized windows */
+.titlebar-spacer[type="pre-tabs"] {
+    display: none !important;
+}
+
+#navigator-toolbox {
+    border-bottom: 1px solid var(--box-background-color) !important;
+}
+
+#alltabs-button {
+    display: none !important;
+}
+
+/* findbar {
+	order: -1 !important;
+	border-top: none !important;
+	border-bottom: 1px solid var(--box-background-color) !important;
+}
+findbar>.findbar-container {
+	flex-direction: row-reverse;
+} */

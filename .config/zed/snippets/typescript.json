@@ -1,0 +1,37 @@
+{
+  "console.log": {
+    "prefix": "cl",
+    "body": "console.log(${0})"
+  },
+  "console.log details": {
+    "prefix": "cll",
+    "body": "console.log('${1}', ${2})"
+  },
+  "forEach": {
+    "prefix": "forEach",
+    "body": "${1:array}.forEach(${2:currentItem} => {\n\t${0}\n});",
+    "description": "Creates a forEach statement in ES6 syntax"
+  },
+  "forOf": {
+    "prefix": "for",
+    "body": "for (const ${1:item} of ${2:object}) {\n\t${0}\n}",
+    "description": "Iterating over property names of iterable objects"
+  },
+  "forIn": {
+    "prefix": "forIn",
+    "body": "for (const ${1:item} in ${2:object}) {\n\t${0}\n}",
+    "description": "Iterating over property values of iterable objects"
+  },
+  "try/catch": {
+    "prefix": "try",
+    "body": "try {\n\t\t\t${1}\n} catch (${2:error}) {\n\t\t\t${0}\n}"
+  },
+  "try/finally": {
+    "prefix": "tryF",
+    "body": "try {\n\t\t\t${0}\n} finally {\n\t\t\t\n}"
+  },
+  "try/catch/finally": {
+    "prefix": "tryCF",
+    "body": "try {\n\t\t\t${1}\n} catch (${2:error}) {\n\t\t\t${3}\n} finally {\n\t\t\t${0}\n}"
+  }
+}
