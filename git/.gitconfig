@@ -1,6 +1,11 @@
 [user]
-        #name = 
-        #email = 
+        #name =
+        #email =
+        #signingkey = /PATH/TO/.SSH/KEY.PUB
+[commit]
+        gpgsign = true
+[gpg]
+        format = ssh
 [core]
         excludesfile = ~/.gitignore
 [init]
