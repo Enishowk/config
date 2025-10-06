@@ -89,6 +89,28 @@
             ]
           },
           {
+            "description": "Launch Music by hyper+8.",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "8",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_shift",
+                      "left_command",
+                      "left_control",
+                      "left_option"
+                    ]
+                  }
+                },
+                "to": [
+                  { "shell_command": "open '/System/Applications/Music.app'" }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
             "description": "Launch Messages by hyper+9.",
             "manipulators": [
               {
