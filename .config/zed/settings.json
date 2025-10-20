@@ -13,6 +13,7 @@
       "model": "gpt-4o"
     }
   },
+  "auto_signature_help": true,
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
@@ -35,7 +36,8 @@
   "features": {
     "edit_prediction_provider": "zed"
   },
-  "icon_theme": "Material Icon Theme",
+  // "icon_theme": "Material Icon Theme",
+  "icon_theme": "Catppuccin Frappé",
   "indent_guides": {
     "active_line_width": 2
   },
@@ -72,7 +74,6 @@
   "vim_mode": true,
 
   // LANGUAGE
-
   "diagnostics": {
     "inline": {
       "enabled": true,
