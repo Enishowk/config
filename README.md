@@ -36,6 +36,10 @@ sudo chmod 600 ~/.ssh/id_rsa.pub
 eval $(ssh-agent -c)
  ```
 
+# CLI (brew install)
+* eza
+* lazygit
+
 # Soft (brew install --cask)
 * alt-tab
 * brave-browser
