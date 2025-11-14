@@ -14,5 +14,6 @@
         ff = only
 [alias]
         fpush = push
+        co = checkout
 [includeIf "gitdir:~/www/ent/"]
         path = ~/.gitconfig-ent
