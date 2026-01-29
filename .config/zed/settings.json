@@ -8,38 +8,39 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "agent": {
+    "default_profile": "ask",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4.1"
-    }
+      "provider": "anthropic",
+      "model": "claude-opus-4-5-latest",
+    },
   },
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
       "proxy": null,
       "proxy_no_verify": null,
-      "enterprise_uri": null
+      "enterprise_uri": null,
     },
-    "enabled_in_text_threads": false
+    "enabled_in_text_threads": false,
   },
   "show_edit_predictions": true,
 
   // EDITOR
-
   "auto_signature_help": false,
   "buffer_font_family": "Iosevka Nerd Font",
   "buffer_font_size": 16,
   "buffer_line_height": "standard",
+  "colorize_brackets": true,
   "confirm_quit": true,
   "cursor_blink": false,
   "extend_comment_on_newline": false,
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "zed",
   },
   // "icon_theme": "Material Icon Theme",
   "icon_theme": "Catppuccin Frappé",
   "indent_guides": {
-    "active_line_width": 2
+    "active_line_width": 2,
   },
   "relative_line_numbers": "wrapped",
   "show_signature_help_after_edits": true,
@@ -48,29 +49,39 @@
   "soft_wrap": "editor_width",
   "tabs": {
     "file_icons": true,
-    "git_status": true
+    "git_status": true,
   },
   "tab_bar": {
-    "show_nav_history_buttons": false
+    "show_nav_history_buttons": false,
   },
   "telemetry": {
     "metrics": false,
-    "diagnostics": false
+    "diagnostics": false,
   },
   "terminal": {
     "dock": "bottom",
     "font_size": 15,
     "line_height": "standard",
     "toolbar": {
-      "breadcrumbs": false
+      "breadcrumbs": false,
     },
-    "minimum_contrast": 0
+    "minimum_contrast": 0,
   },
-  "theme": "Github Dark Dimmed",
+  "theme": "GitHub Dark Dimmed",
+  "theme_overrides": {
+    "GitHub Dark Dimmed": {
+      "vim.normal.background": "#89b4fa",
+      "vim.normal.foreground": "#000000",
+      "vim.insert.background": "#a6e3a1",
+      "vim.insert.foreground": "#000000",
+      "vim.visual.background": "#cba6f7",
+      "vim.visual.foreground": "#000000",
+    },
+  },
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": true,
-    "selections_menu": true
+    "selections_menu": true,
   },
   // "ui_font_family": "Iosevka Nerd Font",
   // "ui_font_size": 15,
@@ -80,19 +91,19 @@
   "diagnostics": {
     "inline": {
       "enabled": true,
-      "max_severity": "info"
-    }
+      "max_severity": "info",
+    },
   },
   "formatter": "prettier",
   "languages": {
     "JavaScript": {
       "language_servers": ["typescript-language-server", "!vtsls", "..."],
       "code_actions_on_format": {
-        "source.sortImports.ts": true
-      }
+        "source.sortImports.ts": true,
+      },
     },
     "Rust": {
-      "formatter": [{ "language_server": { "name": "rust-analyzer" } }]
-    }
-  }
+      "formatter": [{ "language_server": { "name": "rust-analyzer" } }],
+    },
+  },
 }
