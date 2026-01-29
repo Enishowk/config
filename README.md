@@ -39,6 +39,7 @@ eval $(ssh-agent -c)
 # CLI (brew install)
 * eza
 * lazygit
+* terminal-notifier
 
 # Soft (brew install --cask)
 * alt-tab
@@ -58,7 +59,8 @@ eval $(ssh-agent -c)
 * stats
 * steam
 * sublime-text
-* veracrypt-fuse-tvisual-studio-code
+* veracrypt-fuse-t
+* visual-studio-code
 * vlc
 * zed
 
