@@ -29,8 +29,6 @@ user_pref("dom.security.https_first", true);
 user_pref("dom.security.https_only_mode", true);
 user_pref("dom.security.https_only_mode_ever_enabled", true);
 
-user_pref("extensions.pocket.enabled", false);
-
 // MacOS
 user_pref("full-screen-api.transition-duration.enter", "0 0");
 user_pref("full-screen-api.transition-duration.leave", "0 0");
