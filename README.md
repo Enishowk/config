@@ -1,8 +1,8 @@
 # Terminal
 ```sh
-# Install Homebrew and Ghostty
+# Install Homebrew and Kitty
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install --cask ghostty
+brew install --cask kitty
 # Disable the popup keyboard layout
 defaults write kCFPreferencesAnyApplication TSMLanguageIndicatorEnabled 0
 ```
@@ -50,7 +50,7 @@ eval $(ssh-agent -c)
 * firefox@developer-edition
 * font-iosevka-nerd-font
 * font-jetbrains-mono-nerd-font
-* ghostty
+* kitty
 * karabiner-elements
 * libreoffice
 * mac-mouse-fix@2
@@ -60,7 +60,6 @@ eval $(ssh-agent -c)
 * steam
 * sublime-text
 * veracrypt-fuse-t
-* visual-studio-code
 * vlc
 * zed
 
