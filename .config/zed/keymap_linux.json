@@ -1,0 +1,48 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "context": "Editor && !menu",
+    "bindings": {
+      "ctrl-c": "editor::Copy",
+      "ctrl-x": "editor::Cut",
+      "ctrl-v": "editor::Paste",
+      "ctrl-y": "editor::Undo",
+      "ctrl-f": "buffer_search::Deploy",
+      "ctrl-a": "editor::SelectAll",
+      "ctrl-s": "workspace::Save",
+      "ctrl-t": "project_symbols::Toggle",
+      "ctrl-b": "workspace::ToggleLeftDock",
+      "ctrl-d": "editor::DuplicateLineDown",
+      "ctrl-e": "editor::Hover",
+      "ctrl-p": "file_finder::Toggle",
+      "f9": "editor::SortLinesCaseSensitive",
+      "ctrl-space": "editor::ShowCompletions",
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-shift-g": "git_panel::Toggle",
+      "ctrl-shift-e": "project_panel::Toggle",
+      "ctrl-r": "agent::Toggle",
+      "ctrl-\"": "terminal_panel::ToggleFocus",
+    },
+  },
+]
