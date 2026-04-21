@@ -56,6 +56,7 @@ eval $(ssh-agent -c)
 * libreoffice
 * mac-mouse-fix@2
 * middleclick
+* raycast
 * rectangle
 * stats
 * steam
