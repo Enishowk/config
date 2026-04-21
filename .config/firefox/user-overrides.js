@@ -4,12 +4,10 @@
 // visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
-user_pref("browser.bookmarks.openInTabClosesMenu", false);
 user_pref("browser.download.always_ask_before_handling_new_types", false);
 user_pref("browser.download.forbid_open_with", true);
 user_pref("browser.download.useDownloadDir", true);
 user_pref("browser.fixup.domainsuffixwhitelist.lan", true);
-user_pref("browser.formfill.enable", false);
 user_pref("browser.newtabpage.enabled", true);
 user_pref("browser.search.separatePrivateDefault", false);
 user_pref("browser.sessionstore.privacy_level", 2);
@@ -51,5 +49,3 @@ user_pref("privacy.resistFingerprinting.letterboxing", false);
 user_pref("privacy.sanitize.sanitizeOnShutdown", true);
 
 user_pref("signon.rememberSignons", false);
-
-user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
