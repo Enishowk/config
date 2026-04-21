@@ -1,6 +1,6 @@
 # Use a pomodoro timer with the fish shell.
 # https://gist.github.com/bashbunni/e311f07e100d51a883ab0414b46755fa
-# This requires https://github.com/caarlos0/timer to be installed and https://github.com/charmbrace$
+# This requires https://github.com/caarlos0/timer to be installed and https://github.com/charmbracelet/gum
 
 function pom
     set split $POMO_SPLIT
