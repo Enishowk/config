@@ -17,6 +17,7 @@ fish_add_path /opt/homebrew/bin
 brew install fisher
 fisher install IlanCosman/tide@v6
 tide configure
+set --universal tide_left_prompt_items pwd git
 ```
 
 
@@ -65,7 +66,7 @@ eval $(ssh-agent -c)
 
 # Node
 ```sh
-brew install node
+# install n https://github.com/tj/n
 # make cache folder (if missing) and take ownership
 sudo mkdir -p /usr/local/n
 sudo chown -R $(whoami) /usr/local/n
