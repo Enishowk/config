@@ -28,6 +28,8 @@ user_pref("dom.security.https_only_mode", true);
 user_pref("dom.security.https_only_mode_ever_enabled", true);
 
 // MacOS
+user_pref("general.smoothScroll", false);
+user_pref("mousewheel.default.delta_multiplier_y", "250");
 user_pref("full-screen-api.transition-duration.enter", "0 0");
 user_pref("full-screen-api.transition-duration.leave", "0 0");
 
