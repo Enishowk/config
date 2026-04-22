@@ -10,8 +10,15 @@
   "agent": {
     "default_profile": "ask",
     "default_model": {
+      "effort": "high",
+      "enable_thinking": true,
       "provider": "anthropic",
-      "model": "claude-opus-4-5-latest",
+      "model": "claude-sonnet-4-6-latest",
+    },
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry",
     },
   },
   "edit_predictions": {
@@ -21,7 +28,6 @@
       "proxy_no_verify": null,
       "enterprise_uri": null,
     },
-    "enabled_in_text_threads": false,
   },
   "show_edit_predictions": true,
 
@@ -34,15 +40,14 @@
   "confirm_quit": true,
   "cursor_blink": false,
   "extend_comment_on_newline": false,
-  "features": {
-    "edit_prediction_provider": "zed",
-  },
-  // "icon_theme": "Material Icon Theme",
   "icon_theme": "Catppuccin Frappé",
   "indent_guides": {
     "active_line_width": 2,
   },
   "relative_line_numbers": "wrapped",
+  "session": {
+    "trust_all_worktrees": true,
+  },
   "show_signature_help_after_edits": true,
   "show_wrap_guides": false,
   "snippet_sort_order": "top",
@@ -94,13 +99,35 @@
       "max_severity": "info",
     },
   },
-  "formatter": "prettier",
+  "formatter": "auto",
   "languages": {
+    "CSS": {
+      "prettier": { "allowed": false },
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+    },
+    "HTML": {
+      "prettier": { "allowed": false },
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+    },
     "JavaScript": {
-      "language_servers": ["typescript-language-server", "!vtsls", "..."],
-      "code_actions_on_format": {
-        "source.sortImports.ts": true,
-      },
+      "prettier": { "allowed": false },
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+    },
+    "JSON": {
+      "prettier": { "allowed": false },
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+    },
+    "Markdown": {
+      "prettier": { "allowed": false },
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+    },
+    "TypeScript": {
+      "prettier": { "allowed": false },
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+    },
+    "TSX": {
+      "prettier": { "allowed": false },
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
     },
     "Rust": {
       "formatter": [{ "language_server": { "name": "rust-analyzer" } }],

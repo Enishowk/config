@@ -7,80 +7,37 @@
 // from the command palette.
 [
   {
-    "context": "Editor && edit_prediction_conflict",
-    "use_key_equivalents": true,
-    "bindings": {
-      "cmd-ctrl-shift-alt-tab": "editor::AcceptEditPrediction"
-    }
-  },
-  {
     "context": "Workspace",
     "bindings": {
-      // "shift shift": "file_finder::Toggle"
-    }
+      "shift shift": "file_finder::Toggle",
+    },
   },
   {
     "context": "Editor && vim_mode == insert",
     "bindings": {
       // "j k": "vim::NormalBefore"
-    }
+    },
   },
   {
+    "context": "Editor && (edit_prediction && (showing_completions || in_leading_whitespace))",
+    "use_key_equivalents": true,
     "bindings": {
-      "cmd-\"": "terminal_panel::ToggleFocus"
-    }
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "cmd-shift-g": "git_panel::ToggleFocus"
-    }
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-shift-g": null
-    }
+      "cmd-ctrl-shift-alt-tab": "editor::AcceptEditPrediction",
+    },
   },
   {
     "context": "Editor",
     "bindings": {
-      "cmd-space": "editor::ShowCompletions"
-    }
-  },
-  {
-    "context": "(Editor && mode == full)",
-    "bindings": {
-      "cmd-e": null
-    }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "cmd-e": "editor::Hover"
-    }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "f9": null
-    }
+      "cmd-e": "editor::Hover",
+      "cmd-d": "editor::DuplicateLineDown",
+      "cmd-space": "editor::ShowCompletions",
+      "f9": "editor::SortLinesCaseSensitive",
+    },
   },
   {
     "bindings": {
-      "f9": "editor::SortLinesCaseSensitive"
-    }
+      "cmd-shift-g": "git_panel::ToggleFocus",
+      "cmd-\"": "terminal_panel::ToggleFocus",
+    },
   },
-  {
-    "context": "AgentPanel",
-    "bindings": {
-      "cmd-d": null
-    }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "cmd-d": "editor::DuplicateLineDown"
-    }
-  }
 ]
